@@ -1,0 +1,4 @@
+Invoking command in '/home/devinhenkel/ros_workspace/bot_one/build/bot_one_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/devinhenkel/ros_workspace/bot_one/build/bot_one_pkg -- -j4 -l4
+Invoked command in '/home/devinhenkel/ros_workspace/bot_one/build/bot_one_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/devinhenkel/ros_workspace/bot_one/build/bot_one_pkg -- -j4 -l4
+Invoking command in '/home/devinhenkel/ros_workspace/bot_one/build/bot_one_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/devinhenkel/ros_workspace/bot_one/build/bot_one_pkg
+Invoked command in '/home/devinhenkel/ros_workspace/bot_one/build/bot_one_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/devinhenkel/ros_workspace/bot_one/build/bot_one_pkg

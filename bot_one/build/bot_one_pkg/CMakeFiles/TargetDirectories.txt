@@ -1,5 +1,7 @@
 /home/devinhenkel/ros_workspace/bot_one/build/bot_one_pkg/CMakeFiles/uninstall.dir
 /home/devinhenkel/ros_workspace/bot_one/build/bot_one_pkg/CMakeFiles/bot_one_pkg_uninstall.dir
+/home/devinhenkel/ros_workspace/bot_one/build/bot_one_pkg/CMakeFiles/ament_cmake_python_copy_scripts.dir
+/home/devinhenkel/ros_workspace/bot_one/build/bot_one_pkg/CMakeFiles/ament_cmake_python_build_scripts_egg.dir
 /home/devinhenkel/ros_workspace/bot_one/build/bot_one_pkg/CMakeFiles/test.dir
 /home/devinhenkel/ros_workspace/bot_one/build/bot_one_pkg/CMakeFiles/edit_cache.dir
 /home/devinhenkel/ros_workspace/bot_one/build/bot_one_pkg/CMakeFiles/rebuild_cache.dir

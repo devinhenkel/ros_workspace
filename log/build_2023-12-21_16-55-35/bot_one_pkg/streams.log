@@ -1,0 +1,42 @@
+[0.127s] Invoking command in '/home/devinhenkel/ros_workspace/build/bot_one_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/devinhenkel/ros_workspace/bot_one/src/bot_one_pkg -DCMAKE_INSTALL_PREFIX=/home/devinhenkel/ros_workspace/install/bot_one_pkg
+[0.273s] -- The C compiler identification is GNU 11.4.0
+[0.383s] -- The CXX compiler identification is GNU 11.4.0
+[0.395s] -- Detecting C compiler ABI info
+[0.507s] -- Detecting C compiler ABI info - done
+[0.519s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.519s] -- Detecting C compile features
+[0.520s] -- Detecting C compile features - done
+[0.525s] -- Detecting CXX compiler ABI info
+[0.661s] -- Detecting CXX compiler ABI info - done
+[0.677s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.677s] -- Detecting CXX compile features
+[0.678s] -- Detecting CXX compile features - done
+[0.691s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.971s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.103s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.218s] -- Added test 'lint_cmake' to check CMake code style
+[1.220s] -- Added test 'xmllint' to check XML markup files
+[1.223s] -- Configuring done
+[1.227s] -- Generating done
+[1.229s] -- Build files have been written to: /home/devinhenkel/ros_workspace/build/bot_one_pkg
+[1.236s] Invoked command in '/home/devinhenkel/ros_workspace/build/bot_one_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/devinhenkel/ros_workspace/bot_one/src/bot_one_pkg -DCMAKE_INSTALL_PREFIX=/home/devinhenkel/ros_workspace/install/bot_one_pkg
+[1.240s] Invoking command in '/home/devinhenkel/ros_workspace/build/bot_one_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/devinhenkel/ros_workspace/build/bot_one_pkg -- -j4 -l4
+[1.304s] Invoked command in '/home/devinhenkel/ros_workspace/build/bot_one_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/devinhenkel/ros_workspace/build/bot_one_pkg -- -j4 -l4
+[1.352s] Invoking command in '/home/devinhenkel/ros_workspace/build/bot_one_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/devinhenkel/ros_workspace/build/bot_one_pkg
+[1.365s] -- Install configuration: ""
+[1.365s] -- Installing: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/ament_index/resource_index/package_run_dependencies/bot_one_pkg
+[1.366s] -- Installing: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/ament_index/resource_index/parent_prefix_path/bot_one_pkg
+[1.366s] -- Installing: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/environment/ament_prefix_path.sh
+[1.367s] -- Installing: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/environment/ament_prefix_path.dsv
+[1.367s] -- Installing: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/environment/path.sh
+[1.367s] -- Installing: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/environment/path.dsv
+[1.368s] -- Installing: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/local_setup.bash
+[1.368s] -- Installing: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/local_setup.sh
+[1.368s] -- Installing: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/local_setup.zsh
+[1.369s] -- Installing: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/local_setup.dsv
+[1.369s] -- Installing: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/package.dsv
+[1.369s] -- Installing: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/ament_index/resource_index/packages/bot_one_pkg
+[1.370s] -- Installing: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/cmake/bot_one_pkgConfig.cmake
+[1.370s] -- Installing: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/cmake/bot_one_pkgConfig-version.cmake
+[1.370s] -- Installing: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/package.xml
+[1.373s] Invoked command in '/home/devinhenkel/ros_workspace/build/bot_one_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/devinhenkel/ros_workspace/build/bot_one_pkg
