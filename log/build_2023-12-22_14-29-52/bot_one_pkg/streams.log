@@ -1,0 +1,72 @@
+[0.288s] Invoking command in '/home/devinhenkel/ros_workspace/build/bot_one_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/devinhenkel/ros_workspace/bot_one/src/bot_one_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devinhenkel/ros_workspace/install/bot_one_pkg
+[0.504s] -- The C compiler identification is GNU 11.4.0
+[0.717s] -- The CXX compiler identification is GNU 11.4.0
+[0.740s] -- Detecting C compiler ABI info
+[1.023s] -- Detecting C compiler ABI info - done
+[1.090s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.091s] -- Detecting C compile features
+[1.092s] -- Detecting C compile features - done
+[1.108s] -- Detecting CXX compiler ABI info
+[1.410s] -- Detecting CXX compiler ABI info - done
+[1.447s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.448s] -- Detecting CXX compile features
+[1.451s] -- Detecting CXX compile features - done
+[1.464s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.096s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.334s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.411s] -- Found rclpy: 3.3.11 (/opt/ros/humble/share/rclpy/cmake)
+[2.729s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.072s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.075s] -- Added test 'lint_cmake' to check CMake code style
+[3.081s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.088s] -- Added test 'xmllint' to check XML markup files
+[3.096s] -- Configuring done
+[3.112s] -- Generating done
+[3.116s] -- Build files have been written to: /home/devinhenkel/ros_workspace/build/bot_one_pkg
+[3.132s] Invoked command in '/home/devinhenkel/ros_workspace/build/bot_one_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/devinhenkel/ros_workspace/bot_one/src/bot_one_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devinhenkel/ros_workspace/install/bot_one_pkg
+[3.138s] Invoking command in '/home/devinhenkel/ros_workspace/build/bot_one_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devinhenkel/ros_workspace/build/bot_one_pkg -- -j4 -l4
+[3.333s] Built target ament_cmake_python_symlink_scripts
+[4.242s] running egg_info
+[4.248s] creating scripts.egg-info
+[4.249s] writing scripts.egg-info/PKG-INFO
+[4.250s] writing dependency_links to scripts.egg-info/dependency_links.txt
+[4.250s] writing top-level names to scripts.egg-info/top_level.txt
+[4.258s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[4.271s] reading manifest file 'scripts.egg-info/SOURCES.txt'
+[4.276s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[4.411s] Built target ament_cmake_python_build_scripts_egg
+[4.437s] Invoked command in '/home/devinhenkel/ros_workspace/build/bot_one_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devinhenkel/ros_workspace/build/bot_one_pkg -- -j4 -l4
+[4.550s] Invoking command in '/home/devinhenkel/ros_workspace/build/bot_one_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/devinhenkel/ros_workspace/build/bot_one_pkg
+[4.570s] -- Install configuration: ""
+[4.573s] -- Execute custom install script
+[4.577s] -- Symlinking: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/environment/pythonpath.sh
+[4.601s] -- Symlinking: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/environment/pythonpath.dsv
+[4.626s] -- Symlinking: /home/devinhenkel/ros_workspace/install/bot_one_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/PKG-INFO
+[4.655s] -- Symlinking: /home/devinhenkel/ros_workspace/install/bot_one_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.692s] -- Symlinking: /home/devinhenkel/ros_workspace/install/bot_one_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.724s] -- Symlinking: /home/devinhenkel/ros_workspace/install/bot_one_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt
+[4.752s] -- Symlinking: /home/devinhenkel/ros_workspace/install/bot_one_pkg/local/lib/python3.10/dist-packages/scripts/__init__.py
+[4.792s] -- Symlinking: /home/devinhenkel/ros_workspace/install/bot_one_pkg/local/lib/python3.10/dist-packages/scripts/py_pub.py
+[4.818s] -- Symlinking: /home/devinhenkel/ros_workspace/install/bot_one_pkg/local/lib/python3.10/dist-packages/scripts/py_sub.py
+[4.845s] -- Symlinking: /home/devinhenkel/ros_workspace/install/bot_one_pkg/lib/bot_one_pkg/py_pub.py
+[4.879s] -- Symlinking: /home/devinhenkel/ros_workspace/install/bot_one_pkg/lib/bot_one_pkg/py_sub.py
+[4.906s] -- Symlinking: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/ament_index/resource_index/package_run_dependencies/bot_one_pkg
+[4.925s] -- Symlinking: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/ament_index/resource_index/parent_prefix_path/bot_one_pkg
+[4.951s] -- Symlinking: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/environment/ament_prefix_path.sh
+[4.990s] -- Symlinking: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/environment/ament_prefix_path.dsv
+[5.014s] -- Symlinking: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/environment/path.sh
+[5.034s] -- Symlinking: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/environment/path.dsv
+[5.070s] -- Symlinking: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/local_setup.bash
+[5.106s] -- Symlinking: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/local_setup.sh
+[5.126s] -- Symlinking: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/local_setup.zsh
+[5.146s] -- Symlinking: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/local_setup.dsv
+[5.175s] -- Symlinking: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/package.dsv
+[5.207s] -- Symlinking: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/ament_index/resource_index/packages/bot_one_pkg
+[5.232s] -- Symlinking: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/cmake/bot_one_pkgConfig.cmake
+[5.257s] -- Symlinking: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/cmake/bot_one_pkgConfig-version.cmake
+[5.281s] -- Symlinking: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/package.xml
+[5.433s] Listing '/home/devinhenkel/ros_workspace/install/bot_one_pkg/local/lib/python3.10/dist-packages/scripts'...
+[5.434s] Compiling '/home/devinhenkel/ros_workspace/install/bot_one_pkg/local/lib/python3.10/dist-packages/scripts/__init__.py'...
+[5.435s] Compiling '/home/devinhenkel/ros_workspace/install/bot_one_pkg/local/lib/python3.10/dist-packages/scripts/py_pub.py'...
+[5.435s] Compiling '/home/devinhenkel/ros_workspace/install/bot_one_pkg/local/lib/python3.10/dist-packages/scripts/py_sub.py'...
+[5.466s] Invoked command in '/home/devinhenkel/ros_workspace/build/bot_one_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/devinhenkel/ros_workspace/build/bot_one_pkg

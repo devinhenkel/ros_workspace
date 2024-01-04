@@ -14,15 +14,15 @@ class PyPub(Node):
 
     def timer_callback(self):
         msg = String()
-        msg.data = 'Hello World: %d' % self.i
+        msg.data = 'Hello, you crazy World: %d' % self.i
         self.pub.publish(msg)
-        self.get_logger().info('Publishing: "%s"' % msg.data)
+        #self.get_logger().info('Publishing: "%s"' % msg.data)
         self.i += 1
 
 def main(args=None):
     rclpy.init(args=args)
     py_pub = PyPub()
-    print("Python Publisher has been started")
+    print("New Python Publisher has been started")
 
     try:
         rclpy.spin(py_pub)

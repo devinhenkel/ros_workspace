@@ -1,0 +1,43 @@
+[0.488s] Invoking command in '/home/devinhenkel/ros_workspace/build/bot_one_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devinhenkel/ros_workspace/build/bot_one_pkg -- -j4 -l4
+[0.679s] Built target ament_cmake_python_symlink_scripts
+[1.622s] running egg_info
+[1.625s] writing scripts.egg-info/PKG-INFO
+[1.626s] writing dependency_links to scripts.egg-info/dependency_links.txt
+[1.627s] writing top-level names to scripts.egg-info/top_level.txt
+[1.644s] reading manifest file 'scripts.egg-info/SOURCES.txt'
+[1.646s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[1.785s] Built target ament_cmake_python_build_scripts_egg
+[1.819s] Invoked command in '/home/devinhenkel/ros_workspace/build/bot_one_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devinhenkel/ros_workspace/build/bot_one_pkg -- -j4 -l4
+[1.921s] Invoking command in '/home/devinhenkel/ros_workspace/build/bot_one_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/devinhenkel/ros_workspace/build/bot_one_pkg
+[1.956s] -- Install configuration: ""
+[1.962s] -- Execute custom install script
+[1.963s] -- Up-to-date symlink: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/environment/pythonpath.sh
+[1.963s] -- Up-to-date symlink: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/environment/pythonpath.dsv
+[1.964s] -- Up-to-date symlink: /home/devinhenkel/ros_workspace/install/bot_one_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/PKG-INFO
+[1.965s] -- Up-to-date symlink: /home/devinhenkel/ros_workspace/install/bot_one_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.970s] -- Up-to-date symlink: /home/devinhenkel/ros_workspace/install/bot_one_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.970s] -- Up-to-date symlink: /home/devinhenkel/ros_workspace/install/bot_one_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt
+[1.974s] -- Up-to-date symlink: /home/devinhenkel/ros_workspace/install/bot_one_pkg/local/lib/python3.10/dist-packages/scripts/__init__.py
+[1.975s] -- Up-to-date symlink: /home/devinhenkel/ros_workspace/install/bot_one_pkg/local/lib/python3.10/dist-packages/scripts/py_pub.py
+[1.975s] -- Up-to-date symlink: /home/devinhenkel/ros_workspace/install/bot_one_pkg/local/lib/python3.10/dist-packages/scripts/py_sub.py
+[1.975s] -- Up-to-date symlink: /home/devinhenkel/ros_workspace/install/bot_one_pkg/local/lib/python3.10/dist-packages/scripts/rpm_pub.py
+[1.976s] -- Up-to-date symlink: /home/devinhenkel/ros_workspace/install/bot_one_pkg/lib/bot_one_pkg/py_pub.py
+[1.976s] -- Up-to-date symlink: /home/devinhenkel/ros_workspace/install/bot_one_pkg/lib/bot_one_pkg/py_sub.py
+[1.976s] -- Up-to-date symlink: /home/devinhenkel/ros_workspace/install/bot_one_pkg/lib/bot_one_pkg/rpm_pub.py
+[1.977s] -- Up-to-date symlink: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/ament_index/resource_index/package_run_dependencies/bot_one_pkg
+[1.977s] -- Up-to-date symlink: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/ament_index/resource_index/parent_prefix_path/bot_one_pkg
+[1.977s] -- Up-to-date symlink: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/environment/ament_prefix_path.sh
+[1.978s] -- Up-to-date symlink: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/environment/ament_prefix_path.dsv
+[1.978s] -- Up-to-date symlink: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/environment/path.sh
+[1.983s] -- Up-to-date symlink: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/environment/path.dsv
+[1.984s] -- Up-to-date symlink: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/local_setup.bash
+[1.984s] -- Up-to-date symlink: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/local_setup.sh
+[1.984s] -- Up-to-date symlink: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/local_setup.zsh
+[1.985s] -- Up-to-date symlink: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/local_setup.dsv
+[1.985s] -- Symlinking: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/package.dsv
+[2.014s] -- Up-to-date symlink: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/ament_index/resource_index/packages/bot_one_pkg
+[2.014s] -- Up-to-date symlink: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/cmake/bot_one_pkgConfig.cmake
+[2.014s] -- Up-to-date symlink: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/cmake/bot_one_pkgConfig-version.cmake
+[2.015s] -- Up-to-date symlink: /home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/package.xml
+[2.130s] Listing '/home/devinhenkel/ros_workspace/install/bot_one_pkg/local/lib/python3.10/dist-packages/scripts'...
+[2.176s] Invoked command in '/home/devinhenkel/ros_workspace/build/bot_one_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/devinhenkel/ros_workspace/build/bot_one_pkg

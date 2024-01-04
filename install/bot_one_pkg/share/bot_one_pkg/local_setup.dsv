@@ -1,3 +1,1 @@
-source;share/bot_one_pkg/environment/ament_prefix_path.sh
-source;share/bot_one_pkg/environment/path.sh
-source;share/bot_one_pkg/environment/pythonpath.sh
+/home/devinhenkel/ros_workspace/build/bot_one_pkg/ament_cmake_environment_hooks/local_setup.dsv

@@ -17,7 +17,14 @@ install(
   PROGRAMS
   scripts/py_pub.py
   scripts/py_sub.py 
+  scripts/rpm_pub.py
   DESTINATION lib/${PROJECT_NAME}
+)
+
+install(
+  DIRECTORY 
+  launch
+  DESTINATION share/${PROJECT_NAME}
 )
 
 if(BUILD_TESTING)

@@ -12,7 +12,7 @@ class PySub(Node):
         self.sub  # prevent unused variable warning
 
     def sub_callback(self, msg):
-        self.get_logger().info('Received: "%s"' % msg.data)
+        #self.get_logger().info('Received: "%s"' % msg.data)
 
 def main(args=None):
     rclpy.init(args=args)

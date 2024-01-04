@@ -1,0 +1,166 @@
+[2.487s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[2.487s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fd78108be80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fd7810895a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fd7810895a0>>)
+[2.637s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.638s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.638s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.638s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.638s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.638s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.638s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/devinhenkel/ros_workspace'
+[2.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.673s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.674s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.674s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.674s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.674s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.674s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one) by extensions ['ignore', 'ignore_ament_install']
+[2.675s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one) by extension 'ignore'
+[2.675s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one) by extension 'ignore_ament_install'
+[2.675s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one) by extensions ['colcon_pkg']
+[2.675s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one) by extension 'colcon_pkg'
+[2.675s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one) by extensions ['colcon_meta']
+[2.675s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one) by extension 'colcon_meta'
+[2.675s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one) by extensions ['ros']
+[2.676s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one) by extension 'ros'
+[2.676s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one) by extensions ['cmake', 'python']
+[2.676s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one) by extension 'cmake'
+[2.676s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one) by extension 'python'
+[2.676s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one) by extensions ['python_setup_py']
+[2.676s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one) by extension 'python_setup_py'
+[2.676s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one/build) by extensions ['ignore', 'ignore_ament_install']
+[2.677s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one/build) by extension 'ignore'
+[2.677s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one/build) ignored
+[2.677s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one/install) by extensions ['ignore', 'ignore_ament_install']
+[2.677s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one/install) by extension 'ignore'
+[2.677s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one/install) ignored
+[2.678s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one/log) by extensions ['ignore', 'ignore_ament_install']
+[2.678s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one/log) by extension 'ignore'
+[2.678s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one/log) ignored
+[2.679s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one/src) by extensions ['ignore', 'ignore_ament_install']
+[2.679s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one/src) by extension 'ignore'
+[2.679s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one/src) by extension 'ignore_ament_install'
+[2.679s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one/src) by extensions ['colcon_pkg']
+[2.679s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one/src) by extension 'colcon_pkg'
+[2.680s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one/src) by extensions ['colcon_meta']
+[2.680s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one/src) by extension 'colcon_meta'
+[2.680s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one/src) by extensions ['ros']
+[2.680s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one/src) by extension 'ros'
+[2.680s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one/src) by extensions ['cmake', 'python']
+[2.680s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one/src) by extension 'cmake'
+[2.680s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one/src) by extension 'python'
+[2.680s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one/src) by extensions ['python_setup_py']
+[2.680s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one/src) by extension 'python_setup_py'
+[2.681s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one/src/bot_one_pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.681s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one/src/bot_one_pkg) by extension 'ignore'
+[2.681s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one/src/bot_one_pkg) by extension 'ignore_ament_install'
+[2.681s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one/src/bot_one_pkg) by extensions ['colcon_pkg']
+[2.681s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one/src/bot_one_pkg) by extension 'colcon_pkg'
+[2.681s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one/src/bot_one_pkg) by extensions ['colcon_meta']
+[2.681s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one/src/bot_one_pkg) by extension 'colcon_meta'
+[2.681s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one/src/bot_one_pkg) by extensions ['ros']
+[2.682s] Level 1:colcon.colcon_core.package_identification:_identify(bot_one/src/bot_one_pkg) by extension 'ros'
+[2.687s] DEBUG:colcon.colcon_core.package_identification:Package 'bot_one/src/bot_one_pkg' with type 'ros.ament_cmake' and name 'bot_one_pkg'
+[2.688s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.689s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.689s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.690s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.690s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.690s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.690s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.690s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.691s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.946s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.946s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.015s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/devinhenkel/ros_workspace/bot_one/install
+[3.059s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[3.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.358s] Level 5:colcon.colcon_core.verb:set package 'bot_one_pkg' build argument 'cmake_args' from command line to 'None'
+[3.359s] Level 5:colcon.colcon_core.verb:set package 'bot_one_pkg' build argument 'cmake_target' from command line to 'None'
+[3.359s] Level 5:colcon.colcon_core.verb:set package 'bot_one_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.359s] Level 5:colcon.colcon_core.verb:set package 'bot_one_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[3.359s] Level 5:colcon.colcon_core.verb:set package 'bot_one_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[3.359s] Level 5:colcon.colcon_core.verb:set package 'bot_one_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[3.359s] Level 5:colcon.colcon_core.verb:set package 'bot_one_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[3.359s] Level 5:colcon.colcon_core.verb:set package 'bot_one_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[3.359s] Level 5:colcon.colcon_core.verb:set package 'bot_one_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.359s] DEBUG:colcon.colcon_core.verb:Building package 'bot_one_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/devinhenkel/ros_workspace/build/bot_one_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/devinhenkel/ros_workspace/install/bot_one_pkg', 'merge_install': False, 'path': '/home/devinhenkel/ros_workspace/bot_one/src/bot_one_pkg', 'symlink_install': True, 'test_result_base': None}
+[3.398s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.442s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.443s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/devinhenkel/ros_workspace/bot_one/src/bot_one_pkg' with build type 'ament_cmake'
+[3.443s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/devinhenkel/ros_workspace/bot_one/src/bot_one_pkg'
+[3.503s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.504s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.504s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.733s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devinhenkel/ros_workspace/build/bot_one_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/devinhenkel/ros_workspace/bot_one/src/bot_one_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devinhenkel/ros_workspace/install/bot_one_pkg
+[6.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devinhenkel/ros_workspace/build/bot_one_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/devinhenkel/ros_workspace/bot_one/src/bot_one_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devinhenkel/ros_workspace/install/bot_one_pkg
+[6.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devinhenkel/ros_workspace/build/bot_one_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devinhenkel/ros_workspace/build/bot_one_pkg -- -j4 -l4
+[7.882s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devinhenkel/ros_workspace/build/bot_one_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devinhenkel/ros_workspace/build/bot_one_pkg -- -j4 -l4
+[7.994s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devinhenkel/ros_workspace/build/bot_one_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/devinhenkel/ros_workspace/build/bot_one_pkg
+[8.901s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bot_one_pkg)
+[8.910s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devinhenkel/ros_workspace/build/bot_one_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/devinhenkel/ros_workspace/build/bot_one_pkg
+[8.975s] Level 1:colcon.colcon_core.environment:checking '/home/devinhenkel/ros_workspace/install/bot_one_pkg' for CMake module files
+[8.976s] Level 1:colcon.colcon_core.environment:checking '/home/devinhenkel/ros_workspace/install/bot_one_pkg' for CMake config files
+[8.977s] Level 1:colcon.colcon_core.shell:create_environment_hook('bot_one_pkg', 'cmake_prefix_path')
+[9.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/hook/cmake_prefix_path.ps1'
+[9.021s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/hook/cmake_prefix_path.dsv'
+[9.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/hook/cmake_prefix_path.sh'
+[9.028s] Level 1:colcon.colcon_core.environment:checking '/home/devinhenkel/ros_workspace/install/bot_one_pkg/lib'
+[9.029s] Level 1:colcon.colcon_core.environment:checking '/home/devinhenkel/ros_workspace/install/bot_one_pkg/bin'
+[9.030s] Level 1:colcon.colcon_core.environment:checking '/home/devinhenkel/ros_workspace/install/bot_one_pkg/lib/pkgconfig/bot_one_pkg.pc'
+[9.031s] Level 1:colcon.colcon_core.environment:checking '/home/devinhenkel/ros_workspace/install/bot_one_pkg/lib/python3.10/site-packages'
+[9.032s] Level 1:colcon.colcon_core.environment:checking '/home/devinhenkel/ros_workspace/install/bot_one_pkg/bin'
+[9.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/package.ps1'
+[9.105s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/package.dsv'
+[9.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/package.sh'
+[9.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/package.bash'
+[9.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/package.zsh'
+[9.114s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devinhenkel/ros_workspace/install/bot_one_pkg/share/colcon-core/packages/bot_one_pkg)
+[9.278s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bot_one_pkg)
+[9.318s] Level 1:colcon.colcon_core.environment:checking '/home/devinhenkel/ros_workspace/install/bot_one_pkg' for CMake module files
+[9.320s] Level 1:colcon.colcon_core.environment:checking '/home/devinhenkel/ros_workspace/install/bot_one_pkg' for CMake config files
+[9.321s] Level 1:colcon.colcon_core.shell:create_environment_hook('bot_one_pkg', 'cmake_prefix_path')
+[9.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/hook/cmake_prefix_path.ps1'
+[9.376s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/hook/cmake_prefix_path.dsv'
+[9.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/hook/cmake_prefix_path.sh'
+[9.379s] Level 1:colcon.colcon_core.environment:checking '/home/devinhenkel/ros_workspace/install/bot_one_pkg/lib'
+[9.379s] Level 1:colcon.colcon_core.environment:checking '/home/devinhenkel/ros_workspace/install/bot_one_pkg/bin'
+[9.379s] Level 1:colcon.colcon_core.environment:checking '/home/devinhenkel/ros_workspace/install/bot_one_pkg/lib/pkgconfig/bot_one_pkg.pc'
+[9.380s] Level 1:colcon.colcon_core.environment:checking '/home/devinhenkel/ros_workspace/install/bot_one_pkg/lib/python3.10/site-packages'
+[9.380s] Level 1:colcon.colcon_core.environment:checking '/home/devinhenkel/ros_workspace/install/bot_one_pkg/bin'
+[9.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/package.ps1'
+[9.442s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/package.dsv'
+[9.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/package.sh'
+[9.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/package.bash'
+[9.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/devinhenkel/ros_workspace/install/bot_one_pkg/share/bot_one_pkg/package.zsh'
+[9.450s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devinhenkel/ros_workspace/install/bot_one_pkg/share/colcon-core/packages/bot_one_pkg)
+[9.451s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.452s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.452s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.452s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.547s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.547s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.547s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.600s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.668s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/devinhenkel/ros_workspace/install/local_setup.ps1'
+[9.670s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/devinhenkel/ros_workspace/install/_local_setup_util_ps1.py'
+[9.673s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/devinhenkel/ros_workspace/install/setup.ps1'
+[9.733s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/devinhenkel/ros_workspace/install/local_setup.sh'
+[9.735s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/devinhenkel/ros_workspace/install/_local_setup_util_sh.py'
+[9.736s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/devinhenkel/ros_workspace/install/setup.sh'
+[9.780s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/devinhenkel/ros_workspace/install/local_setup.bash'
+[9.781s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/devinhenkel/ros_workspace/install/setup.bash'
+[9.813s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/devinhenkel/ros_workspace/install/local_setup.zsh'
+[9.814s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/devinhenkel/ros_workspace/install/setup.zsh'
